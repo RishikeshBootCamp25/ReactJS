@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Topic2 from "./Topic2";
 import Topic3 from "./Topic3";
-import Topic4 from "./Topic4";
+import Topic4 from "./topic4";
 
 export default function Chapter3() {
   const topics = [
