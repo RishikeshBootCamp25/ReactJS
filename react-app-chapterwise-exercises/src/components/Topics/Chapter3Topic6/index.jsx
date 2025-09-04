@@ -1,7 +1,7 @@
 import Counter from "./Counter";
 import NameForm from "./NameForm";
 
-function Chapter3Topic5() {
+function Chapter3Topic6() {
   return (
     <>
       <h3>Example 1:</h3>
@@ -18,4 +18,4 @@ function Chapter3Topic5() {
   );
 }
 
-export default Chapter3Topic5;
+export default Chapter3Topic6;

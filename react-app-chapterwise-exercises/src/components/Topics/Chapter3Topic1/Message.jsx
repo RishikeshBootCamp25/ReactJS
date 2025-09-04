@@ -1,4 +1,4 @@
-export default function Message({ text = "", name = "", about = "" }) {
+export default function Message({ text }) {
   return (
     <>
       <p>{text}</p>

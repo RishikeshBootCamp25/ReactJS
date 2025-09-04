@@ -22,7 +22,7 @@ class CounterClass extends Component {
 
   render() {
     return (
-      <div className="p-6 border rounded-lg shadow bg-gray-50 w-64 text-center">
+      <div className="p-6 border rounded-lg shadow w-64 text-center">
         <p className="text-lg">Count: {this.state.count}</p>
         <div className="flex justify-center gap-3 mt-4">
           <button

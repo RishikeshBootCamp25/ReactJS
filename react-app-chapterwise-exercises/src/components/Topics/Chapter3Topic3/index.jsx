@@ -1,21 +1,17 @@
 
 import ToggleText from "./ToggleText";
-import StudentList from "./StudentList";
+import InputAlert from "./InputAlert";
 
 
 function Chapter3Topic3() {
   return (
     <>
-    <div className="flex gap-3">
-      <div className="justify-center h-screen bg-gray-100">
-        <h2 className="text-xl font-bold mb-4">Props</h2>
-        <StudentList></StudentList>
-      </div>
-      <div className="justify-center h-screen bg-gray-100">
-        <h2 className="text-xl font-bold mb-4">State</h2>
-        <div className="p-4"><ToggleText /></div>
-      </div>
-    </div>
+        <h3>Example 1:</h3>
+        <div className="p-4 bg-white">
+          <InputAlert></InputAlert>
+        </div>
+        <h3 className="my-3">Example 2:</h3>
+        <div className="p-4 bg-white"><ToggleText /></div>
     </>
   );
 }

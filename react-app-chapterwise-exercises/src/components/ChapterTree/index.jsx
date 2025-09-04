@@ -10,7 +10,7 @@ export default function ChapterTree() {
   };
 
   return (
-    <div className="w-72 h-screen p-4">
+    <div className="h-screen">
       <ul>
         {chaptersData.map((chapter) => (
           <li key={chapter.id} className="mb-2">
@@ -29,7 +29,7 @@ export default function ChapterTree() {
                       to={`chapter${chapter.id}/topic${topic.id}`}
                       className="block p-2 text-sm text-gray-300 hover:text-green hover:bg-gray-800 rounded"
                     >
-                      {topic.title}
+                      {topic.id}: {topic.title}
                     </Link>
                   </li>
                 ))}
