@@ -49,12 +49,11 @@
     "id": 5,
     "title": "Chapter 5: Consuming APIs",
     "topics": [
-      { "id": 1, "title": "What is an API?" },
-      { "id": 2, "title": "What is JSON?" },
-      { "id": 3, "title": "Fetching data using fetch() or Axios" },
-      { "id": 4, "title": "Handling loading & error states" },
-      { "id": 5, "title": "Rendering API data in UI" },
-      { "id": 6, "title": "Connect with Grade 9’s API - Tentative" }
+      { "id": 1, "title": "What is an API? What is JSON?" },
+      { "id": 2, "title": "Fetching data using fetch() or Axios" },
+      { "id": 3, "title": "Handling loading & error states" },
+      { "id": 4, "title": "Rendering API data in UI" },
+      { "id": 5, "title": "Connect with Grade 9’s API - Tentative" }
     ]
   },
   {

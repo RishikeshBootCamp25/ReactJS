@@ -6,6 +6,7 @@ function InputForm() {
 
   // Handle input change
   const handleChange = (event) => {
+    console.log('handleChange', event.target.value);
     setInputValue(event.target.value);
   };
 

@@ -14,8 +14,12 @@ import Chapter3Topic8 from "../Topics/Chapter3Topic8";
 import Chapter4Topic1 from "../Topics/Chapter4Topic1";
 import Chapter4Topic2 from "../Topics/Chapter4Topic2";
 import Chapter4Topic3 from "../Topics/Chapter4Topic3";
-import Chapter4Topic4 from "../Topics/Chapter4Topic4 ";
+import Chapter4Topic4 from "../Topics/Chapter4Topic4";
 import Chapter4Topic5 from "../Topics/Chapter4Topic5";
+import Chapter5Topic1 from "../Topics/Chapter5Topic1";
+import Chapter5Topic2 from "../Topics/Chapter5Topic2";
+import Chapter5Topic3 from "../Topics/Chapter5Topic3";
+import Chapter5Topic4 from "../Topics/Chapter5Topic4";
 // key format: `${chapterId}_${topicId}`
 export const topicComponents = {
   chapter3_topic1: Chapter3Topic1,
@@ -30,5 +34,9 @@ export const topicComponents = {
   chapter4_topic2: Chapter4Topic2,
   chapter4_topic3: Chapter4Topic3,
   chapter4_topic4: Chapter4Topic4,
-  chapter4_topic5: Chapter4Topic5
+  chapter4_topic5: Chapter4Topic5,
+  chapter5_topic1: Chapter5Topic1,
+  chapter5_topic2: Chapter5Topic2,
+  chapter5_topic3: Chapter5Topic3,
+  chapter5_topic4: Chapter5Topic4
 };
