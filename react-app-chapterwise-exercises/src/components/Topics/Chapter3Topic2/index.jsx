@@ -1,6 +1,7 @@
 import Message from "./Message";
 import LikeButton from "./LikeButton";
 import CounterClass from "./Counter";
+import UserProfile from "./UserProfile"
 
 
 function Chapter3Topic2() {
@@ -18,6 +19,8 @@ function Chapter3Topic2() {
         <h2 className="text-xl font-bold my-5">Class Components</h2>
         <h3 className="my-3">Example 1:</h3>
         <div className="p-4 bg-white"><CounterClass /></div>
+        <h3 className="my-3">Example 2:</h3>
+        <div className="p-4 bg-white"><UserProfile></UserProfile></div>
         
     </>
   );

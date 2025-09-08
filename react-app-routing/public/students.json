@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "age": 20,
+    "course": "Computer Science"
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "age": 21,
+    "course": "Mathematics"
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "age": 22,
+    "course": "Physics"
+  },
+  {
+    "id": 4,
+    "name": "David",
+    "age": 23,
+    "course": "Chemistry"
+  },
+  {
+    "id": 5,
+    "name": "Eva",
+    "age": 24,
+    "course": "Biology"
+  }
+]
